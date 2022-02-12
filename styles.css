@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:rgb(235, 225, 210, 1.0);
+    font-family: 'Karla', sans-serif;
+}
+.welcome {
+    background: linear-gradient(rgb(235, 225, 210, 0.5), rgb(235, 225, 210, 1.0)), url(images/header.png);
+    background-size: cover;
+}
+.welcome h1 {
+    padding-top: 40px;
+    font-size: 250%;
+    color: white;
+    text-align: center;
+}
+.sel ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.sel li {
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* NEW */
+}
+.sel a{
+    display: block;
+    width: 10%;
+    text-align: center;
+    color: white;
+    text-decoration: none; /* aspect must apply to innermost */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sel img{
+    max-width: 14px;
+}
+.sel hr{
+    height: 1px;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.0);
+    margin-right: 20%;
+    margin-left: 20%;
+}
