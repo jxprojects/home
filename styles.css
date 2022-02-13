@@ -3,36 +3,29 @@ body {
     padding: 0;
     background:rgb(235, 225, 210, 1.0);
     font-family: 'Karla', sans-serif;
-}
-.welcome {
-    background: linear-gradient(rgb(235, 225, 210, 0.5), rgb(235, 225, 210, 1.0)), url(images/header.png);
+    background: linear-gradient(rgba(56, 62, 114, 0.8), rgb(56, 62, 114, 0.8)), url(images/header.png);
     background-size: cover;
 }
-.welcome h1 {
-    padding-top: 40px;
+.sel h1 {
+    padding-top: 20px;
     font-size: 250%;
     color: white;
     text-align: center;
 }
 .sel ul{
-    list-style: none;
     padding: 0;
     margin: 0;
+    margin-top: -20px;
     text-align: center;
 }
 .sel li {
-    padding: 0;
-    margin: 0;
     display: inline-block; /* NEW */
 }
 .sel a{
-    display: block;
-    width: 10%;
-    text-align: center;
     color: white;
-    text-decoration: none; /* aspect must apply to innermost */
-    padding-left: 10px;
-    padding-right: 10px;
+     /* aspect must apply to innermost */
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .sel img{
     max-width: 14px;
@@ -41,6 +34,36 @@ body {
     height: 1px;
     background-color: white;
     border-color: rgba(0, 0, 0, 0.0);
-    margin-right: 20%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.projbar h1 {
+    font-size: 20px;
     margin-left: 20%;
+}
+.projbar a {
+    margin-bottom: 10px;
+    margin-left: 3.83%;
+    display: inline-block;
+    text-decoration: none;
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+}
+.projbar h3 {
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+.projbar h4 {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(129, 129, 129);
+    margin-top: -7px;
+}
+#proj1 {
+    background-image: url(images/header.png);
+}
+#proj2 {
+    background-image: url(images/header.png);
 }
