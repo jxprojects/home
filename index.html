@@ -1,5 +1,19 @@
 <html lang="en">
 <head>
+
+    <!-- My First JS code-->
+    <script>
+        var links = ["jxprojects.github.io/home/"];
+
+        openLink = function () {
+            var randIdx = Math.random() * links.length;
+            randIdx = parseInt(randIdx, 10);
+            var link = 'http://' + links[randIdx];
+            window.open(link);
+        };
+    </script>
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +33,10 @@
     <!-- BAR WITH "WELCOME", PAGE OPTS -->
     <div class="sel">
         <h1>Welcome to JX</h1>
-        <ul>
-            <li> <a href=""><img src="images/logo.PNG"></a></li>
-            <li> <a href="">Projects</a></li>
-            <li> <a href="">About</a></li>
-            <li> <a href="">Contact</a></li>
-        </ul>
+        <a href=""><img src="images/logo.PNG"></a>
+        <button onclick="openLink();">Projects</button>
+        <a href="">About</a>
+        <a href="">Contact</a>
         <hr>
     </div>
 
