@@ -1,41 +1,44 @@
 body {
     margin: 0;
     padding: 0;
-    background:rgb(235, 225, 210, 1.0);
-    font-family: 'Karla', sans-serif;
-    background: linear-gradient(rgba(56, 62, 114, 0.8), rgb(56, 62, 114, 0.8)), url(images/header.png);
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: white;
     background-size: cover;
 }
 .sel h1 {
-    padding-top: 20px;
+    margin: 0;
+    font-weight: 400;
+    padding-top: 80px;
     font-size: 250%;
-    color: white;
+    color: black;
     text-align: center;
 }
 .sel {
     padding: 0;
     margin: 0;
-    margin-top: -20px;
+    margin-top: -50px;
     text-align: center;
 }
 .sel li {
     display: inline-block; /* NEW */
 }
 .sel a{
-    color: white;
+    font-weight: 100;
+    color: black;
     border: none;
      /* aspect must apply to innermost */
     padding-left: 5px;
     padding-right: 5px;
 }
 .sel button {
+    font-weight: 100;
     padding: 0;
     border: none;
     background: none;
     text-decoration: underline;
     font-size: 95%;
-    font-family: 'Karla', sans-serif;
-    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    color: black;
 
 }
 .sel img{
@@ -43,39 +46,46 @@ body {
 }
 .sel hr{
     height: 1px;
-    background-color: white;
+    background-color: black;
     border-color: rgba(0, 0, 0, 0.0);
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .projbar h1 {
     margin-left: 20%;
 }
 .projbar a {
     margin-bottom: 10px;
-    margin-left: 3.83%;
+    margin-left: 1%;
     display: inline-block;
     text-decoration: none;
-    width: 20%;
+    width: 18.8%;
     height: 200px;
     border-radius: 10px;
 }
 .projbar h3 {
-    font-size: small;
+    font-size: 10px;
+    height: 1em;
     margin-top: 8px;
     text-align: center;
     color: white;
 }
 .projbar h4 {
+    font-style: italic;
+    font-weight: 300;
     font-size: x-small;
     margin-left: 8px;
     margin-right: 8px;
     color: rgb(129, 129, 129);
-    margin-top: -7px;
+    margin-top: 3px;
 }
 #proj1 {
     background: linear-gradient(rgb(1, 1, 1, 0.5), rgb(200, 200, 200, 0.5));
+    margin-left: 20%;
 }
 #proj2 {
     background-image: url(images/header.png);
+}
+#proj3 {
+   background-color: aliceblue;
 }
