@@ -90,10 +90,22 @@ body {
 #proj1 h4 {
     color: black;
 }
+#proj1 #updt1 {
+    margin-top: 5px;
+    text-align:end;
+    font-size: 8;
+    color: rgb(140, 140, 140);
+}
 #proj2 {
     background: linear-gradient(rgb(100, 10, 100, 0.5), rgb(100, 10, 100, 0.1));
     margin-left: 40.2%;
     margin-top: -110px;
+}
+#proj2 #updt2 {
+    margin-top: 5px;
+    text-align:end;
+    font-size: 8;
+    color: rgb(140, 140, 140);
 }
 #proj2 h4 {
     color: black;
