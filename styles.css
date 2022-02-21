@@ -104,3 +104,20 @@ body {
     margin-left: 20%;
     
 }
+#proj5 {
+    margin-left: 40.2%;
+    margin-top: -160px;
+}
+footer {
+    text-align: center;
+    color:rgba(150, 150, 150);
+    margin-top: 10px;
+    padding: 0;
+    font-size: 10px;
+}
+footer p {
+    margin-bottom: 0;
+}
+footer a {
+    margin-top: -8px;
+}
