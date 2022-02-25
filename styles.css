@@ -106,17 +106,17 @@ body {
     text-decoration: none;
     margin-top: -155px;
     margin-left: 165px;
-    background: linear-gradient(rgb(1, 1, 1, 0.65), rgb(1, 1, 1, 0.55));
+    background: rgb(200, 200, 200, 0.3);
     width: 555px;
     height: 155px;
-    color: white;
+    color: rgb(1, 1, 1, 0.85);
     margin-bottom: 5px;
 }
 #blu {
-    background: linear-gradient(rgb(46, 42, 75, 0.65), rgb(46, 42, 75, 0.55));
+    background: rgb(46, 42, 75, 0.05);
 }
 #rid {
-    background: linear-gradient(rgb(110, 38, 38, 0.65), rgb(110, 38, 38, 0.55));
+    background: rgb(110, 38, 38, 0.05);
 }
 .pro h1 {
     margin: 0;
@@ -137,54 +137,14 @@ body {
     margin-right: 10px;
     text-align: end;
     margin-top: 35px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(105, 105, 105, 0.6);
 }
 mark {
+    color: white;
     padding: 2px;
-    background-color: white;
+    background-color: rgb(1, 1, 1, 0.85);
 }
-#proj1 {
-    background: linear-gradient(rgb(1, 1, 1, 0.5), rgb(200, 200, 200, 0.5));
-    margin-left: 20%;
-}
-#proj1 h4 {
-    color: black;
-}
-#proj1 #updt1 {
-    margin-top: 5px;
-    text-align:end;
-    font-size: 8;
-    color: rgb(140, 140, 140);
-}
-#proj2 {
-    background: linear-gradient(rgb(100, 10, 100, 0.5), rgb(100, 10, 100, 0.1));
-    margin-left: 40.2%;
-    margin-top: -110px;
-}
-#proj2 #updt2 {
-    margin-top: 5px;
-    text-align:end;
-    font-size: 8;
-    color: rgb(140, 140, 140);
-}
-#proj2 h4 {
-    color: black;
-}
-#proj3 { /*note: I am cheating*/
-   background-color: aliceblue;
-   margin-left: 60.4%;
-   margin-top: -110px;
-}
-#proj4 {
-    margin-top: -2px;
-    margin-left: 20%;
-    background-color: aqua;
-    
-}
-#proj5 {
-    margin-left: 40.2%;
-    margin-top: -112px;
-}
+
  /* FOOTER TAGS */
  footer {
     margin: 0;
