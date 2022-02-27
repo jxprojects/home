@@ -4,7 +4,8 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     background-color: white;
     background-size: cover;
-    width: 1200px;
+    width: 1600px;
+    
 }
 .sel h1 {
     margin: 0;
@@ -21,8 +22,8 @@ body {
     margin-top: -50px;
     text-align: center;
     background-color: rgb(1, 1, 1, 0.85);
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 25%;
 }
 .sel li {
     display: inline-block; /* NEW */
@@ -175,4 +176,95 @@ footer a {
 }
 #xtra {
     margin-top: 8px;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'IBM Plex Mono', monospace;
+        background-color: white;
+        background-size: cover;
+        width:auto;
+    }
+    .sel h1 {
+        margin: 0;
+        font-weight: 400;
+        padding-top: 60px;
+        font-size: 150%;
+        color: white;
+        text-align: center;
+    }
+    .sel {
+        padding: 0;
+        margin: 0;
+        margin-top: -50px;
+        text-align: center;
+        background-color: rgb(1, 1, 1, 0.85);
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .sel a {
+        font-size: 70%;
+    }
+    .sel button {
+        font-size: 70%;
+    }
+    .sel img {
+        max-width: 10px;
+    }
+    .main p {
+        font-size: 60%;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .pro {
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+    .pro img {
+        width: 100%;
+        border: 3px solid rgb(1, 1, 1, 0.85);
+        border-radius: 10px;
+    }
+    .pro a {
+        display: block;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-left: 0px;
+        background: rgb(200, 200, 200, 0.3);
+        width: 102%;
+        height: auto;
+        color: rgb(1, 1, 1, 0.85);
+        margin-bottom: 5px;
+    }
+    footer {
+        margin: 0;
+        padding: 0;
+        border-radius: 5px;
+        color:rgb(1, 1, 1, 0.85);
+        margin-top: 0px;
+        font-size: 7px;
+        font-weight: 300;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    footer img {
+        margin-top: 0px;
+        width: 3%;
+    }
+    footer p {
+        margin: 0;
+        padding: 0;
+    }
+    .lc {
+        margin-left: 40%;
+        margin-top: -27;
+    }
+    #xtra {
+        margin-top: 0px;
+    }
+
 }
