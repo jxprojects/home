@@ -4,7 +4,7 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     background-color: white;
     background-size: cover;
-    width: 1200px;
+    width: 900px;
     
 }
 .sel h1 {
@@ -23,7 +23,7 @@ body {
     text-align: center;
     background-color: rgb(1, 1, 1, 0.85);
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 0%;
 }
 .sel li {
     display: inline-block; /* NEW */
@@ -156,7 +156,7 @@ mark {
     font-size: 12px;
     font-weight: 300;
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 0%;
 }
 footer img {
     margin-top: 10px;
@@ -214,9 +214,9 @@ footer a {
         max-width: 10px;
     }
     .main p {
-        font-size: 60%;
+        font-size: 15px;
         margin-right: 15px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
     .pro {
         margin-left: 5%;
@@ -246,14 +246,14 @@ footer a {
         border-radius: 5px;
         color:rgb(1, 1, 1, 0.85);
         margin-top: 0px;
-        font-size: 7px;
+        font-size: 12px;
         font-weight: 300;
         margin-left: 15px;
         margin-right: 15px;
     }
     footer img {
         margin-top: 0px;
-        width: 3%;
+        width: 8px;
     }
     footer p {
         margin: 0;
@@ -261,7 +261,7 @@ footer a {
     }
     .lc {
         margin-left: 40%;
-        margin-top: -27;
+        margin-top: -47;
     }
     #xtra {
         margin-top: 0px;
